@@ -76,13 +76,12 @@ export var Navbar = React.createClass({
   },
   getDefaultProps() {
     return {
-      notificationsDisplayCount: 5,
+      notificationsDisplayCount: 4,
       elements: [
         {label: 'environments', url: '#clusters'},
         {label: 'equipment', url: '#equipment'},
         {label: 'releases', url: '#releases'},
         {label: 'plugins', url: '#plugins'},
-        {label: 'support', url: '#support'}
       ]
     };
   },
